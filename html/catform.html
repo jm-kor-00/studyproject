@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>catform</title>
+    <!-- <style>
+      th{
+        font-weight:bold;
+      }
+    </style> -->
+  </head>
+  <body>
+    <h1>고양이사진 투고 양식</h1>
+    <form class="" action="aa.php" method="get">
+    <table border="1">
+      <tr>
+        <th>고양이 이름</th>
+        <td><input type="text" name="catname" value=""></td>
+      </tr>
+      <th>주소</th>
+      <td>
+        <select>
+          <option value="naver">선택해주세요</option>
+          <option value="daum">서울</option>
+          <option value="google">부산</option>
+        </select>
+      </td>
+      <tr>
+        <th>성별</th>
+        <td>
+          <input type="radio" name="gender" checked id="male"><label for="male">수컷</label>
+          <input type="radio" name="gender" id="female"><label for="female">암컷</label>
+        </td>
+      </tr>
+      <tr>
+        <th>좋아하는 것</th>
+        <td>
+          <input type="checkbox" name="favor1">생선
+          <input type="checkbox" name="favor2">고기
+          <input type="checkbox" name="favor3">우유
+          <input type="checkbox" name="favor4">바삭바삭한 것
+          <input type="checkbox" name="favor5">고양이 통조림
+          <input type="checkbox" name="favor6">단 것
+        </td>
+      </tr>
+      <tr>
+        <th>기르는 주인 이름</th>
+        <td><input type="text" name="ownername" value=""></td>
+      </tr>
+      <tr>
+        <th>고양이 사진 첨부하기</th>
+        <td><input type="file"><br></td>
+      </tr>
+      <tr>
+        <th>코멘트</th>
+        <td>
+          <textarea rows="5" cols="40" placeholder="상품평">
+          </textarea>
+        </td>
+      </tr>
+    </table>
+    <div style="border:1px solid; padding:5px;width:100px; text-align:center;">
+      <input type="submit" name="" value="투고">
+      <input type="reset" name="" value="취소">
+    </div>
+    </form>
+  </body>
+</html>
